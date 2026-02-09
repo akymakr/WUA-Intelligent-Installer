@@ -59,12 +59,15 @@
 .EXAMPLE
     # Just check what would be installed (no download/install/reboot)
     .\Install-WindowsUpates.ps1 -UpdateMode SecurityOnly -ScanOnly
-    
+
 .AUTHOR
-    Infrastructure Team
-    
+    Akira Akiyama
+
 .VERSION
-    1.0 - Clear, simple, easy to understand
+    1.0
+
+.LICENSE
+    Standard MIT License
 #>
 
 [CmdletBinding()]

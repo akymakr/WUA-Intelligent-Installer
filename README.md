@@ -44,7 +44,7 @@ Install updates older than 28 days and schedule a reboot in 2 hours:
 .\Install-WindowsUpates.ps1 -UpdateMode SecurityOnly -NoRestart
 ```
 
-3. Preview Mode (Dry Run) Scan for available updates based on filters without installing anything:
+**3. Preview Mode (Dry Run) Scan for available updates based on filters without installing anything:**
 ```powershell
 .\Install-WindowsUpates.ps1 -ScanOnly
 ```

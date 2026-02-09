@@ -12,9 +12,10 @@
 
 * **Multi-Pass Execution:** Automatically handles complex update chains (e.g., Servicing Stack Updates followed by Cumulative Updates) by performing multiple scan/install cycles in a single run.
 * **Asynchronous Progress:** Provides real-time feedback during download and installation phases, ensuring visibility even during long-running updates.
-* **Intelligent Reboot Logic:** * Detects actual reboot requirements from both the Installer and System Registry.
-    * Prevents reboot loops via a **JSON Restart Marker** system.
-    * Schedules graceful shutdowns with customizable delays.
+* **Intelligent Reboot Logic:**
+  * Detects actual reboot requirements from both the Installer and System Registry.
+  * Prevents reboot loops via a **JSON Restart Marker** system.
+  * Schedules graceful shutdowns with customizable delays.
 * **DevOps Ready:** Returns standard exit codes (e.g., `3010` for success with reboot) for seamless integration with CI/CD pipelines and orchestration tools.
 * **Advanced Filtering:** Support for `Delayed` mode to defer updates by a set number of days, mitigating the risk of "Day 0" patch issues.
 
